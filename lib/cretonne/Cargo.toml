@@ -17,3 +17,5 @@ name = "cretonne"
 # Please don't add any unless they are essential to the task of creating binary
 # machine code. Integration tests that need external dependencies can be
 # accomodated in `tests`.
+failure = { version = "0.1.1", default-features = false, features = ["derive"] }
+failure_derive = { version = "0.1.1", default-features = false }

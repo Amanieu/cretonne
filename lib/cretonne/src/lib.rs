@@ -2,6 +2,10 @@
 
 #![deny(missing_docs)]
 
+extern crate failure;
+#[macro_use]
+extern crate failure_derive;
+
 pub use context::Context;
 pub use legalizer::legalize_function;
 pub use verifier::verify_function;
